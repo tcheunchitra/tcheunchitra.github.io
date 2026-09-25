@@ -173,7 +173,7 @@ html {
 }
 
 body {
-	background: #fff;
+	background: #000000;
 }
 
 body.is-preload *,
@@ -228,7 +228,7 @@ i {
 }
 
 p {
-	margin: 0 0 2em 0;
+	margin: 1.5em 0 1.5em 0;
 }
 
 h1,
@@ -313,26 +313,24 @@ blockquote {
 }
 
 code {
-	background: #f7f7f7;
-	border-radius: 0.35em;
-	border: solid 2px #efefef;
+	color: limegreen;
 	font-family: "Courier New", monospace;
 	font-size: 0.9em;
 	margin: 0 0.25em;
-	padding: 0.25em 0.65em;
+	padding: 0.25em 0.35em;
 }
 
 pre {
 	-webkit-overflow-scrolling: touch;
 	font-family: "Courier New", monospace;
 	font-size: 0.9em;
-	margin: 0 0 2em 0;
+	margin: 0 0 0 0;
 }
 
 pre code {
 	display: block;
 	line-height: 1.75em;
-	padding: 1em 1.5em;
+	padding: 0em 1.5em;
 	overflow-x: auto;
 }
 
@@ -1900,6 +1898,7 @@ header h6+p {
 
 header.major h2 {
 	font-size: 2em;
+	color: steelblue;
 }
 
 /* Form */
@@ -3266,10 +3265,6 @@ body.is-touch .poptrox-popup .closer {
 	section.special,
 	article.special {
 		text-align: center;
-	}
-
-	header.major h2 {
-		font-size: 1.35em;
 	}
 
 	/* List */
