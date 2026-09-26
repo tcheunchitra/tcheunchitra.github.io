@@ -173,7 +173,7 @@ html {
 }
 
 body {
-	background: #091217;
+	background: linear-gradient(to top right, #060C0F, #13232E);
 }
 
 body.is-preload *,
@@ -3148,7 +3148,7 @@ body.is-touch .poptrox-popup .closer {
 	/* Main */
 
 	#main {
-		margin-left: 30%;
+		margin-left: 27%;
 		max-width: none;
 		padding: 4em 2em 2em 2em;
 		width: calc(100% - 30%);
