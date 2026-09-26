@@ -173,7 +173,8 @@ html {
 }
 
 body {
-	background: linear-gradient(to top right, #060C0F, #101E27);
+	background: #060C0F
+		/*linear-gradient(to top right, #060C0F, #101E27); */
 }
 
 body.is-preload *,
