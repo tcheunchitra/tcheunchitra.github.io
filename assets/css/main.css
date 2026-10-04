@@ -2736,7 +2736,7 @@ input[type="button"]:disabled,
 	-webkit-flex-grow: 1;
 	-ms-flex-grow: 1;
 	flex-grow: 1;
-	margin: 0 0 1em 0;
+	padding: 3em 1.5em 3em 3em;
 }
 
 #header strong,
@@ -3115,7 +3115,6 @@ body.is-touch .poptrox-popup .closer {
 	/* Header */
 
 	#header {
-		padding: 3em 1.5em 3em 3em;
 		width: 25%;
 	}
 
@@ -3128,7 +3127,6 @@ body.is-touch .poptrox-popup .closer {
 	/* Header */
 
 	#header {
-		padding: 3em 1.5em 3em 3em;
 		width: 25%;
 	}
 
